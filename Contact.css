@@ -333,7 +333,7 @@
   grid-auto-columns: 100%;
   grid-template-columns: repeat(1, 100%);
   min-height: 162px;
-  grid-gap: 10px;
+  --gap: 10px;
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -370,6 +370,7 @@
 
   .u-section-2 .u-repeater-1 {
     grid-template-columns: 100%;
+    grid-gap: 10px;
   }
 }
 
